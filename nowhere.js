@@ -32,11 +32,9 @@ var numbers = {
     twentyFive: 0
 };
 
-
 while(index <= 100 ){
 
     getNum = random(1,25);
-    
     if(getNum == 1){
         numbers.one += 1; 
     }else if(getNum == 2){
@@ -88,11 +86,7 @@ while(index <= 100 ){
     }else{
         numbers.twentyFive += 1;
     }
-    //numbers.push(getNum);
-    index = index + 1;
-
-    
-
+    index += 1;
 }
 
 console.log(numbers);
