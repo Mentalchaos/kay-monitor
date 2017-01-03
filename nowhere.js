@@ -38,55 +38,55 @@ while(index <= 100 ){
     getNum = random(1,25);
     
     if(getNum == 1){
-        numbers.one = numbers.one + 1; 
+        numbers.one += 1; 
     }else if(getNum == 2){
-        numbers.two = numbers.two + 1;
+        numbers.two += 1;
     }else if(getNum == 3){
-        numbers.three = numbers.three + 1;
+        numbers.three += 1;
     }else if(getNum == 4){
-        numbers.four = numbers.four + 1;
+        numbers.four += 1;
     }else if (getNum == 5){
-        numbers.five = numbers.five + 1;
+        numbers.five += 1;
     }else if(getNum == 6){
-        numbers.six = numbers.six + 1;
+        numbers.six += 1;
     }else if(getNum == 7){
-        numbers.seven = numbers.seven + 1;
+        numbers.seven += 1;
     }else if(getNum == 8){
-        numbers.eight = numbers.eight + 1;
+        numbers.eight += 1;
     }else if(getNum == 9){
-        numbers.nine = numbers.nine + 1;
+        numbers.nine += 1;
     }else if(getNum == 10){
-        numbers.ten = numbers.ten + 1;
+        numbers.ten += 1;
     }else if(getNum == 11){
-        numbers.eleven = numbers.eleven + 1;
+        numbers.eleven += 1;
     }else if(getNum == 12){
-        numbers.twelve = numbers.twelve + 1;
+        numbers.twelve += 1;
     }else if(getNum == 13){
-        numbers.thirteen = numbers.thirteen + 1;
+        numbers.thirteen += 1;
     }else if(getNum == 14){
-        numbers.fourteen = numbers.fourteen + 1;
+        numbers.fourteen += 1;
     }else if(getNum == 15){
-        numbers.fiveteen = numbers.fiveteen + 1;
+        numbers.fiveteen += 1;
     }else if(getNum == 16){
-        numbers.sixteen = numbers.sixteen + 1;
+        numbers.sixteen += 1;
     }else if(getNum == 17){
-        numbers.seventeen = numbers.seventeen + 1;
+        numbers.seventeen += 1;
     }else if(getNum == 18){
-        numbers.eighteen = numbers.eighteen + 1;
+        numbers.eighteen += 1;
     }else if(getNum == 19){
-        numbers.nineteen = numbers.nineteen + 1;
+        numbers.nineteen += 1;
     }else if(getNum == 20){
-        numbers.twenty = numbers.twenty + 1;
+        numbers.twenty += 1;
     }else if(getNum == 21){
-        numbers.twentyOne = numbers.twentyOne + 1;
+        numbers.twentyOne += 1;
     }else if(getNum == 22){
-        numbers.twentyTwo = numbers.twentyTwo + 1;
+        numbers.twentyTwo += 1;
     }else if(getNum == 23){
-        numbers.twentyThree = numbers.twentyThree + 1;
+        numbers.twentyThree += 1;
     }else if(getNum == 24){
-        numbers.twentyFour = numbers.twentyFour + 1;
+        numbers.twentyFour += 1;
     }else{
-        numbers.twentyFive = numbers.twentyFive +1;
+        numbers.twentyFive += 1;
     }
     //numbers.push(getNum);
     index = index + 1;
