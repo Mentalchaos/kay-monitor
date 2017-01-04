@@ -33,5 +33,13 @@ function getNumber(){
     for(var i = 0; i <=24; i++){
         n[i+1] = getProb(prob(i),numbers[i+1]); 
     }
-    return numbers;
+    console.log(numbers);
+    
+    return n;
+}
+
+function generateNum(){
+    
+    var max = Math.max.apply(null,getNumber());
+    return max;
 }
