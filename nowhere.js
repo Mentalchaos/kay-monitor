@@ -33,6 +33,5 @@ function getNumber(){
     for(var i = 0; i <=24; i++){
         n[i+1] = getProb(prob(i),numbers[i+1]); 
     }
-    
     return numbers;
 }
