@@ -17,17 +17,18 @@ var probs = [
 
 function work(){
     //try for number :D
-    console.log(turn);
+    // console.log(turn);
     console.log("ok " + (game.length + 1));
-    for (try_game; try_game < 100; try_game++) {
+    for (try_game; try_game < 7; try_game++) {
         number(getRandomInt(ranges[turn][0],ranges[turn][1], game));
     }
 
     for (var i = 0; i <= 24; i++) {
-        total_hits.push(hits[i] * (probs[i] + porcentaje[0][i]));
+        total_hits.push(hits[i] * (probs[i] + porcentaje[turn][i]));
+        // console.log(total_hits);
     }
     max = Math.max.apply(null, total_hits);
-    console.log("maximo:"  + max);
+    // console.log("maximo:"  + max);
     game.push(total_hits.indexOf(max)+1);
 }
 
@@ -36,7 +37,9 @@ function getRandomInt(min, max, game) {
 }
 
 function number(arg, game){
+    // console.log(arg);
     hits[arg-1] = hits[arg-1] + 1;
+    // console.log(hits);
 }
 
 function thegame(){
