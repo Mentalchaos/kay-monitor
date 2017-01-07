@@ -18,7 +18,7 @@ var probs = [
 function work(){
     //try for number :D
     // console.log(turn);
-    console.log("ok " + (game.length + 1));
+    // console.log("ok " + (game.length + 1));
     for (try_game; try_game < 7; try_game++) {
         number(getRandomInt(ranges[turn][0],ranges[turn][1], game));
     }
@@ -33,7 +33,13 @@ function work(){
 }
 
 function getRandomInt(min, max, game) {
-    return random = Math.floor(Math.random() * (max - min + 1)) + min;
+    let random = Math.floor(Math.random() * (max - min + 1)) + min;
+    if(game.indexOf(random) == -1){
+        return random;
+    }else{
+        try_game--;
+    }
+    
 }
 
 function number(arg, game){
@@ -49,7 +55,7 @@ function thegame(){
         total_hits = [];
         hits = Array.from(new Array(25)).map((x, i ) => i-i);
         try_game = 0;
-        turn = turn+1;
+        turn = turn + 1;
     }
         console.log("sus numeros son " + game.join("-"));
 }
